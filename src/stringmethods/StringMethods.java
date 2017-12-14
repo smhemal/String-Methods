@@ -17,10 +17,10 @@ public class StringMethods {
             String vorx = name.substring(9, 10);
             //String age = name.substring(0, 2);
             String xy = name.substring(2, 5);
-            gender = Double.parseDouble(xy); 
+            gender = Double.parseDouble(xy);
             if (vorx.equalsIgnoreCase("X") || vorx.equalsIgnoreCase("V")) {
                 JOptionPane.showMessageDialog(null, "NIC OK");
-                JOptionPane.showMessageDialog(null, "Your Birth year is 19" + name.substring(0,2));
+                JOptionPane.showMessageDialog(null, "Your Birth year is 19" + name.substring(0, 2));
                 if (gender < 500) {
                     JOptionPane.showMessageDialog(null, "You are a Male");
                 } else {
